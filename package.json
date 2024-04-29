@@ -1,0 +1,28 @@
+{
+  "name": "impakto-engenharia",
+  "version": "1.0.0",
+  "description": "Projeto de site da Impakta engenharia, empresa de engenharia que atua em projetos comerciais, industriais.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "sass",
+    "bootstrap",
+    "html",
+    "javascript",
+    "impakta",
+    "engenharia"
+  ],
+  "author": "reis-bits",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
