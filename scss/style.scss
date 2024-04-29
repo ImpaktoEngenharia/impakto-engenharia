@@ -1,4 +1,4 @@
-@use 'custom';
+@use 'custom' as *;
 
 //COMPONENTS
 
@@ -7,3 +7,5 @@
 @use 'components/typography';
 
 //SECTIONS
+
+@use 'sections/navbar';

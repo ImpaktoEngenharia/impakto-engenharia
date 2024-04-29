@@ -1,0 +1,7 @@
+@use '../custom' as *;
+
+.menu {
+    a {
+        color: $white !important;
+    }
+}
