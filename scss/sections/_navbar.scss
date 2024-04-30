@@ -1,7 +1,13 @@
 @use '../custom' as *;
 
+.info-nav {
+    height: 50px;
+    background-color: $cinzinha;
+    color: $secondary;
+}
+
 .menu {
     a {
-        color: $white !important;
+        color: $primary !important;
     }
 }
