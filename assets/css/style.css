@@ -11848,10 +11848,24 @@ textarea.form-control-lg {
   height: 50px;
   background-color: #C8CFC8;
   color: #0088D8;
+  font-size: 0.8rem;
+}
+.info-nav div div {
+  margin-top: 15px;
 }
 
 .menu a {
   color: #00568C !important;
+}
+
+@media (min-width: 768px) {
+  .info-nav {
+    height: 30px;
+    font-size: 1rem;
+  }
+  .info-nav div div {
+    margin-top: 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

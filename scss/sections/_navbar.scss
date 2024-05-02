@@ -4,6 +4,12 @@
     height: 50px;
     background-color: $cinzinha;
     color: $secondary;
+    font-size: 0.8rem;
+    div {
+        div {
+            margin-top: 15px;
+        }
+    }
 }
 
 .menu {
@@ -11,3 +17,15 @@
         color: $primary !important;
     }
 }
+
+@media(min-width: 768px) {
+    .info-nav {
+        height:30px;
+        font-size: 1rem;
+        div {
+            div {
+                margin-top: 13px;
+            }
+        }
+    }
+}    
