@@ -18,13 +18,13 @@
   <!--NAVBAR-->
   <div class="info-nav d-none d-md-flex justify-content-between align-items-center w-100">
     <div class="horário-de-funcionamento d-flex justify-content-center align-items-center w-50">
-      <div class="text-center">
-        <p>Horário de funcionamento : 00:00 - 00:00</p>
+      <div class="text-center d-flex gap-2">
+        <i class="bi bi-clock-history"></i><p>Horário de funcionamento : 00:00 - 00:00</p>
       </div>
     </div>
     <div class="e-mail bg-primary text-white d-flex justify-content-center align-items-center w-50">
-      <div class="text-center">
-        <p>orcamento@fgrengenharia.com.br</p>
+      <div class="text-center d-flex gap-2">
+        <i class="bi bi-envelope"></i><p>E-mail: orcamento@fgrengenharia.com.br</p>
       </div>
     </div>
   </div>
@@ -60,8 +60,8 @@
             <a class="nav-link" href="#">Contato</a>
           </li>
           <li class="horario-e-email nav-item d-md-none">
-            <a class="nav-link disabled" aria-disabled="true">Horário de funcionamento : 00:00 - 00:00</a>
-            <a class="nav-link disabled" aria-disabled="true">orcamento@fgrengenharia.com.br</a>
+            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-clock-history"></i>  Horário de funcionamento : 00:00 - 00:00</a>
+            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-envelope"></i>  E-mail: orcamento@fgrengenharia.com.br</a>
           </li>
         </ul>
       </div>
@@ -70,35 +70,44 @@
 
   <!--SLIDER-->
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="img-fluid w-100" src="assets/images/engrenagens-1.jpg" alt="">
-        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center mb-5 gap-5">
-          <h5>Instalações</h5>
-          <button class="btn btn-secondary">Saiba mais</button>
+        <img src="assets/images/tubulacao-1.jpg" class="d-block w-100 d-block d-md-none" alt="...">
+        <img src="assets/images/tubulacao-1-md.jpg" class="d-block w-100 d-none d-md-block d-lg-none" alt="...">
+        <img src="assets/images/tubulacao-1-xl.jpg" class="d-block w-100 d-none d-lg-block" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-evenly align-items-center h-75">
+          <div>
+            <h1>INSTALAÇÕES</h1>
+          </div>
+          <button class="btn btn-primary rounded-0">Saiba mais</button>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="img-fluid w-100" src="assets/images/engenheiro-1.jpg" alt="">
-        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center mb-5 gap-5">
-          <h5>Projetos</h5>
-          <button class="btn btn-secondary">Saiba mais</button>
+        <img src="assets/images/projeto-1.jpg" class="d-block w-100 d-block d-md-none" alt="...">
+        <img src="assets/images/projeto-1-md.jpg" class="d-block w-100 d-none d-md-block d-lg-none" alt="...">
+        <img src="assets/images/projeto-1-xl.jpg" class="d-block w-100 d-none d-lg-block" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-evenly align-items-center h-75">
+          <div>
+            <h1>PROJETOS</h1>
+          </div>
+          <button class="btn btn-primary rounded-0">Confira</button>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="img-fluid w-100" src="assets/images/engenheiras-1.jpg" alt="">
-        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center mb-5 gap-5">
-          <h5>Parceiros</h5>
-          <button class="btn btn-secondary">Saiba mais</button>
+        <img src="assets/images/empresaria-1.jpg" class="d-block w-100 d-block d-md-none" alt="...">
+        <img src="assets/images/empresaria-1-md.jpg" class="d-block w-100 d-none d-md-block d-lg-none" alt="...">
+        <img src="assets/images/empresaria-1-xl.jpg" class="d-block w-100 d-none d-lg-block" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-evenly align-items-center h-75">
+          <div>
+            <h1>PARCEIROS</h1>
+          </div>
+          <button class="btn btn-primary rounded-0">Conheça</button>
         </div>
       </div>
     </div>
@@ -116,10 +125,10 @@
 
   <div
     class="intro-content m-auto mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center align-self-center p-4 gap-5">
-    <div class="intro-imagem col-12 col-md-4 col-xl-3">
+    <div class="intro-imagem col-12 col-md-6 col-lg-6 col-xl-5 col-xxl-3">
       <img src="assets/images/about-1.png" alt="Impakto">
     </div>
-    <div class="intro-text d-flex col-12 col-md-6 col-xl-3 flex-column gap-2">
+    <div class="intro-text d-flex col-12 col-md-5 col-lg-4 col-xl-5 col-xxl-4 flex-column gap-2">
       <h4>Sobre a</h4>
       <span class="border-top border-4 border-primary w-25"></span>
       <h1><strong>Impakto</strong> engenharia</h1>
@@ -136,7 +145,7 @@
         equipamentos, ferramentas e uma estruturada frota de veículos para proporcionar um atendimento rápido e
         prestativo a seus clientes.
       </p>
-      <a href="#" class="btn btn-primary text-light d-flex justify-content-center gap-2"><i class="bi bi-headset"></i><p class="m-0 p-0">Solicite um orçamento</p></a>
+      <a href="#" class="btn btn-primary text-light align-self-center align-self-md-end"><i class="bi bi-headset rounded-start-2"></i><h4>Solicte um orçamento</h4><h2 class="m-0 p-0">(11) 4624-4174</h2></a>
     </div>
   </div>
 

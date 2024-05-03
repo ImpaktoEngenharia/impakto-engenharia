@@ -11855,13 +11855,32 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .info-nav {
-    height: 30px;
+    height: 60px;
     font-size: 1rem;
     background-color: #C8CFC8;
     color: #0088D8;
   }
   .info-nav div div {
-    margin-top: 13px;
+    height: 60px;
+    padding-top: 15px;
+  }
+  .info-nav div div p {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1200px) {
+  .info-nav {
+    height: 60px;
+    font-size: 1rem;
+  }
+  .info-nav div div {
+    height: 60px;
+    padding-top: 15px;
+  }
+  .info-nav div div p {
+    font-size: 1.1rem;
+    font-weight: 600;
   }
 }
 .intro-content .intro-imagem img {
@@ -11872,6 +11891,53 @@ textarea.form-control-lg {
 }
 .intro-content .intro-text h4 {
   color: #646665;
+}
+.intro-content .intro-text .btn {
+  display: grid;
+  text-align: justify;
+  gap: 0px;
+  height: 65px;
+  width: 300px;
+  padding: 0;
+}
+.intro-content .intro-text .btn i {
+  margin-right: 10px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #0088D8;
+  padding: 5px 1px 1px 1px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.intro-content .intro-text .btn h4 {
+  color: #C8CFC8;
+  font-size: 1rem;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 5px;
+}
+.intro-content .intro-text .btn h2 {
+  margin: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.carousel-caption div h1 {
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+.carousel-caption button {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+@media (min-width: 768px) {
+  .carousel-caption div h1 {
+    font-weight: 900;
+    font-size: 4rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

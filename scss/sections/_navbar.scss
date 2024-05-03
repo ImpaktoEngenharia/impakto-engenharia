@@ -13,13 +13,35 @@
 
 @media(min-width: 768px) {
     .info-nav {
-        height:30px;
+        height:60px;
         font-size: 1rem;
         background-color: $cinzinha;
         color: $secondary;
         div {
             div {
-                margin-top: 13px;
+                height: 60px;
+                padding-top: 15px;
+                p {
+                    font-size: 1.0rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}    
+
+@media(min-width: 1200px) {
+    .info-nav {
+        height:60px;
+        font-size: 1rem;
+        div {
+            div {
+                height: 60px;
+                padding-top: 15px;
+                p {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                }
             }
         }
     }
