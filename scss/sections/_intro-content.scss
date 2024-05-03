@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.intro-content {
+    .intro-imagem {
+        img {
+            width: 100%;
+        }
+    }
+    .intro-text {
+        text-align: justify;
+        h4 {
+            color: $cinzao;
+        }
+    }
+
+}

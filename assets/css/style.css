@@ -11844,14 +11844,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.info-nav {
-  height: 50px;
-  background-color: #C8CFC8;
-  color: #0088D8;
-  font-size: 0.8rem;
-}
-.info-nav div div {
-  margin-top: 15px;
+.horario-e-email {
+  color: #0088D8 !important;
+  font-weight: 700;
 }
 
 .menu a {
@@ -11862,10 +11857,21 @@ textarea.form-control-lg {
   .info-nav {
     height: 30px;
     font-size: 1rem;
+    background-color: #C8CFC8;
+    color: #0088D8;
   }
   .info-nav div div {
     margin-top: 13px;
   }
+}
+.intro-content .intro-imagem img {
+  width: 100%;
+}
+.intro-content .intro-text {
+  text-align: justify;
+}
+.intro-content .intro-text h4 {
+  color: #646665;
 }
 
 /*# sourceMappingURL=style.css.map */

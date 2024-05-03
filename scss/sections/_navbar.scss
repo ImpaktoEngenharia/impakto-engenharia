@@ -1,15 +1,8 @@
 @use '../custom' as *;
 
-.info-nav {
-    height: 50px;
-    background-color: $cinzinha;
-    color: $secondary;
-    font-size: 0.8rem;
-    div {
-        div {
-            margin-top: 15px;
-        }
-    }
+.horario-e-email {
+    color: $secondary !important;
+    font-weight: 700;
 }
 
 .menu {
@@ -22,6 +15,8 @@
     .info-nav {
         height:30px;
         font-size: 1rem;
+        background-color: $cinzinha;
+        color: $secondary;
         div {
             div {
                 margin-top: 13px;

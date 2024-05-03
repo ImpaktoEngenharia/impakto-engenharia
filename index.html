@@ -16,16 +16,16 @@
 
 <body>
   <!--NAVBAR-->
-  <div class="info-nav d-flex justify-content-between align-items-center w-100">
+  <div class="info-nav d-none d-md-flex justify-content-between align-items-center w-100">
     <div class="horário-de-funcionamento d-flex justify-content-center align-items-center w-50">
       <div class="text-center">
         <p>Horário de funcionamento : 00:00 - 00:00</p>
       </div>
     </div>
     <div class="e-mail bg-primary text-white d-flex justify-content-center align-items-center w-50">
-        <div class="text-center">
-          <p>orcamento@fgrengenharia.com.br</p>
-        </div>
+      <div class="text-center">
+        <p>orcamento@fgrengenharia.com.br</p>
+      </div>
     </div>
   </div>
 
@@ -59,6 +59,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contato</a>
           </li>
+          <li class="horario-e-email nav-item d-md-none">
+            <a class="nav-link disabled" aria-disabled="true">Horário de funcionamento : 00:00 - 00:00</a>
+            <a class="nav-link disabled" aria-disabled="true">orcamento@fgrengenharia.com.br</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -77,36 +81,21 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Slide 1"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">Slide 1</text>
-        </svg>
+        <img class="img-fluid w-100" src="assets/images/engrenagens-1.jpg" alt="">
         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center mb-5 gap-5">
           <h5>Instalações</h5>
           <button class="btn btn-secondary">Saiba mais</button>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Slide 2</text>
-        </svg>
+        <img class="img-fluid w-100" src="assets/images/engenheiro-1.jpg" alt="">
         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center mb-5 gap-5">
           <h5>Projetos</h5>
           <button class="btn btn-secondary">Saiba mais</button>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Slide 3</text>
-        </svg>
+        <img class="img-fluid w-100" src="assets/images/engenheiras-1.jpg" alt="">
         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center mb-5 gap-5">
           <h5>Parceiros</h5>
           <button class="btn btn-secondary">Saiba mais</button>
@@ -123,7 +112,33 @@
     </button>
   </div>
 
+  <!--INDEX CONTENT-->
 
+  <div
+    class="intro-content m-auto mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center align-self-center p-4 gap-5">
+    <div class="intro-imagem col-12 col-md-4 col-xl-3">
+      <img src="assets/images/about-1.png" alt="Impakto">
+    </div>
+    <div class="intro-text d-flex col-12 col-md-6 col-xl-3 flex-column gap-2">
+      <h4>Sobre a</h4>
+      <span class="border-top border-4 border-primary w-25"></span>
+      <h1><strong>Impakto</strong> engenharia</h1>
+      <p>
+        A Impakto presta serviços de montagem, instalação e manutenção nas áreas de elétrica, hidráulica e de prevenção e
+        combate a incêndio. Realizando serviços em todo o território nacional, sendo eles no segmento industrial,
+        comercial e residencial. Para conquistar e manter sua posição de destaque em mercados com alta competitividade e
+        constante inovação, a Impakto vem desenvolvendo uma política de parceria com seus clientes, oferecendo total
+        comprometimento e suporte, tecnologia, qualidade e eficiência.</p>
+      <p>
+        Engenheiros e técnicos especialistas em cada uma das áreas de atuação acompanham todos os trabalhos da
+        Impakto, submetendo-os a um rigoroso controle de qualidade. Situada em Guarulhos, possuímos uma estrutura que
+        abrange o escritório técnico-administrativo e um amplo almoxarifado central, com todos os recursos de
+        equipamentos, ferramentas e uma estruturada frota de veículos para proporcionar um atendimento rápido e
+        prestativo a seus clientes.
+      </p>
+      <a href="#" class="btn btn-primary text-light d-flex justify-content-center gap-2"><i class="bi bi-headset"></i><p class="m-0 p-0">Solicite um orçamento</p></a>
+    </div>
+  </div>
 
 </body>
 
