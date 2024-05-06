@@ -11855,32 +11855,22 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .info-nav {
-    height: 60px;
-    font-size: 1rem;
+    height: 35px;
     background-color: #C8CFC8;
     color: #0088D8;
   }
-  .info-nav div div {
-    height: 60px;
-    padding-top: 15px;
-  }
   .info-nav div div p {
+    height: 15%;
     font-size: 1rem;
-    font-weight: 700;
   }
 }
 @media (min-width: 1200px) {
   .info-nav {
-    height: 60px;
-    font-size: 1rem;
-  }
-  .info-nav div div {
-    height: 60px;
-    padding-top: 15px;
+    height: 35px;
   }
   .info-nav div div p {
-    font-size: 1.1rem;
-    font-weight: 600;
+    height: 15%;
+    font-size: 1rem;
   }
 }
 .intro-content .intro-imagem img {
@@ -11927,6 +11917,10 @@ textarea.form-control-lg {
 .carousel-caption div h1 {
   font-weight: 900;
   font-size: 2.4rem;
+  color: #f2f2f2;
+}
+.carousel-caption div h4 {
+  color: #f2f2f2;
 }
 .carousel-caption button {
   font-weight: 600;

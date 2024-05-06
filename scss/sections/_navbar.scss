@@ -13,17 +13,14 @@
 
 @media(min-width: 768px) {
     .info-nav {
-        height:60px;
-        font-size: 1rem;
+        height:35px;
         background-color: $cinzinha;
         color: $secondary;
         div {
             div {
-                height: 60px;
-                padding-top: 15px;
                 p {
-                    font-size: 1.0rem;
-                    font-weight: 700;
+                    height: 15%;
+                    font-size: 1rem;
                 }
             }
         }
@@ -32,15 +29,12 @@
 
 @media(min-width: 1200px) {
     .info-nav {
-        height:60px;
-        font-size: 1rem;
+        height:35px;
         div {
             div {
-                height: 60px;
-                padding-top: 15px;
                 p {
-                    font-size: 1.1rem;
-                    font-weight: 600;
+                    height: 15%;
+                    font-size: 1rem;
                 }
             }
         }
