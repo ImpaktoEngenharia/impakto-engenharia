@@ -11933,5 +11933,66 @@ textarea.form-control-lg {
     font-size: 4rem;
   }
 }
+.nossos-servicos {
+  margin: 60px 0px 60px 0px;
+}
+.nossos-servicos .container {
+  padding: 0px 15px 0px 15px;
+}
+.nossos-servicos .container .linha .texto .conteudo .titulo {
+  text-align: justify;
+}
+.nossos-servicos .container .linha .texto .conteudo .titulo h5 {
+  font-weight: 300;
+}
+.nossos-servicos .container .linha .texto .conteudo .titulo h2 {
+  font-weight: 600;
+}
+.nossos-servicos .container .linha .texto .conteudo .paragrafo {
+  text-align: justify;
+}
+.nossos-servicos .container .linha .texto .conteudo .paragrafo p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.nossos-servicos .container .linha .texto .conteudo .instalacoes div {
+  display: grid;
+  text-align: justify;
+}
+.nossos-servicos .container .linha .texto .conteudo .instalacoes div i {
+  padding: 0px;
+  font-size: 2rem;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 50px;
+}
+.nossos-servicos .container .linha .texto .conteudo .instalacoes div h4 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.nossos-servicos .container .linha .texto .conteudo .instalacoes div a {
+  margin: 0;
+  padding: 0;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.nossos-servicos .container .linha .texto .conteudo .instalacoes div a i {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .instalacoes div i {
+    font-size: 1rem;
+  }
+  .instalacoes div h4 {
+    font-size: 1.2rem;
+  }
+  .imagem {
+    margin: -80px 0px -80px 0px;
+  }
+  .imagem .conteudo div {
+    height: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
