@@ -3,12 +3,21 @@
 .carousel-caption {
     div {
         h1 {
-            font-weight: 900;
+            font-weight: 700;
             font-size: 2.4rem;
             color: $white;
+            strong {
+                color: $secondary;
+                font-weight: 200;
+            }
         }
         h4 {
             color: $white;
+            strong {
+                color: $cinzinha;
+                font-weight: 400;
+            }
+            
         }
     }
 

@@ -20,14 +20,14 @@
     <div class="horário-de-funcionamento d-flex justify-content-center align-items-center w-50 h-100">
       <div class="text-center d-flex">
         <span class="text-center d-flex align-items-center">
-          <p class="d-flex gap-3"><i class="bi bi-clock-history"></i>Segunda a sexta das 00:00 as 00:00</p>
+          <div class="d-flex gap-3"><i class="bi bi-clock-history"></i>Segunda a sexta das 00:00 as 00:00</div>
         </span>
       </div>
     </div>
     <div class="e-mail bg-primary text-white d-flex justify-content-center align-items-center w-50 h-100">
       <div class="text-center d-flex gap-4">
         <span class="text-center d-flex align-items-center">
-          <p class="d-flex gap-3"><i class="bi bi-envelope"></i>orcamento@fgrengenharia.com.br</p>
+          <div class="d-flex gap-3"><i class="bi bi-envelope"></i>orcamento@fgrengenharia.com.br</div>
         </span>
 
         <span class="text-center d-flex align-items-center">
@@ -70,10 +70,18 @@
             <a class="nav-link" href="#">Contato</a>
           </li>
           <li class="horario-e-email nav-item d-md-none">
-            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-clock-history"></i> Horário de
-              funcionamento : 00:00 - 00:00</a>
-            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-envelope"></i> E-mail:
-              orcamento@fgrengenharia.com.br</a>
+            <a class="nav-link disabled" aria-disabled="true">
+              <div class="d-flex flex-row gap-1 align-items-center"><i class="bi bi-clock-history"></i> Segunda a sexta
+                das 00:00 as 00:00</div>
+            </a>
+            <a class="nav-link disabled d-flex flex-column gap-2" aria-disabled="true">
+              Contato:
+              <br>
+              <div class="d-flex flex-row gap-1 align-items-center"><i
+                  class="bi bi-envelope"></i>orcamento@fgrengenharia.com.br</div>
+              <br>
+              <div class="d-flex flex-row gap-1 align-items-center"><i class="bi bi-telephone"></i>(11) 4624-4174</div>
+            </a>
           </li>
         </ul>
       </div>
@@ -98,8 +106,8 @@
         <img src="assets/images/tubulacao-1-xl.jpg" class="d-block w-100 d-none d-lg-block" alt="...">
         <div class="carousel-caption d-flex flex-column justify-content-evenly align-items-center h-75">
           <div>
-            <h1>INSTALAÇÕES</h1>
-            <h4>Elétricas, Hidráulicas e combate a incêndio</h4>
+            <h1>Nossas <strong>instalações</strong></h1>
+            <h4 class="d-none d-md-block"><strong>Elétricas, Hidráulicas e combate a incêndio</strong></h4>
           </div>
           <button class="btn btn-primary rounded-0">Saiba mais</button>
         </div>
@@ -110,8 +118,8 @@
         <img src="assets/images/projeto-1-xl.jpg" class="d-block w-100 d-none d-lg-block" alt="...">
         <div class="carousel-caption d-flex flex-column justify-content-evenly align-items-center h-75">
           <div>
-            <h1>PROJETOS</h1>
-            <h4>Comercial, Industrial e Residencial</h4>
+            <h1>Nossos <strong>projetos</strong></h1>
+            <h4 class="d-none d-md-block"><strong>Comercial, Industrial e Residencial</strong></h4>
           </div>
           <button class="btn btn-primary rounded-0">Confira</button>
         </div>
@@ -122,8 +130,8 @@
         <img src="assets/images/empresaria-1-xl.jpg" class="d-block w-100 d-none d-lg-block" alt="...">
         <div class="carousel-caption d-flex flex-column justify-content-evenly align-items-center h-75">
           <div>
-            <h1>PARCEIROS</h1>
-            <h4>Fornecedores e assistentes</h4>
+            <h1>Nossos <strong>parceiros</strong></h1>
+            <h4 class="d-none d-md-block"><strong>Fornecedores e assistentes</strong></h4>
           </div>
           <button class="btn btn-primary rounded-0">Conheça</button>
         </div>
@@ -164,10 +172,13 @@
         equipamentos, ferramentas e uma estruturada frota de veículos para proporcionar um atendimento rápido e
         prestativo a seus clientes.
       </p>
-      <a href="#" class="btn btn-primary text-light align-self-center align-self-md-end">
-        <i class="bi bi-headset rounded-start-2"></i>
-        <h4>Solicte um orçamento</h4>
-        <h2 class="m-0 p-0">(11) 4624-4174</h2>
+      <a href="#"
+        class="btn btn-primary text-light align-self-center align-self-md-end d-flex flex-row align-items-center justify-content-between border-0 rounded-0 p-0 m-0">
+        <i class="bi bi-headset col-4 m-0"></i>
+        <div class="texto-botao_intro d-flex flex-column col-8">
+          <h4>Solicte um orçamento</h4>
+          <h2 class="m-0 p-0">(11) 4624-4174</h2>
+        </div>
       </a>
     </div>
   </section>
@@ -194,34 +205,48 @@
 
             <span class="border-top border-1 border-cinzinha w-100"></span>
 
-            <div class="instalacoes d-flex flex-column flex-lg-row gap-2 flex-wrap justify-content-center justify-content-lg-between align-items-center w-100">
-              <div class="hidraulica col-8 col-lg-5 gap-0 p-0 m-0">
+            <div
+              class="instalacoes d-flex flex-column flex-lg-row gap-2 flex-wrap justify-content-center justify-content-lg-between align-items-center w-100">
+              <div id="hidraulica" class="instalacoes-especificas col-8 col-lg-5 d-flex flex-row gap-3 align-items-center">
                 <i class="bi bi-droplet-fill"></i>
-                <h5>Instalações hidráulicas</h5>
-                <a href="#" class="btn btn-secondary col-12 col-md-9 text-light d-flex align-items-center"><i class="bi bi-arrow-right-circle"></i> Saiba mais</a>
+                <div class="instalacoes-especificas_texto d-flex flex-column col-10">
+                  <h5>Instalações hidráulicas</h5>
+                  <a href="#" class="btn btn-secondary col-10 col-md-8 gap-2 text-light d-flex align-items-center"><i
+                      class="bi bi-arrow-right-circle"></i>Saiba mais</a>
+                </div>
               </div>
-              <div class="eletrica col-8 col-lg-5 gap-0 p-0 m-0">
+              <div id="eletrica" class="instalacoes-especificas col-8 col-lg-5 d-flex flex-row gap-3 align-items-center">
                 <i class="bi bi-lightning-fill"></i>
-                <h5>Instalações Elétricas</h5>
-                <a href="#" class="btn btn-secondary col-12 col-md-9 text-light d-flex align-items-center"><i class="bi bi-arrow-right-circle"></i> Saiba mais</a>
+                <div class="instalacoes-especificas_texto d-flex flex-column col-10">
+                  <h5>Instalações Elétricas</h5>
+                  <a href="#" class="btn btn-secondary col-10 col-md-8 gap-2 text-light d-flex align-items-center"><i
+                      class="bi bi-arrow-right-circle"></i>Saiba mais</a>
+                </div>
               </div>
-              <div class="incendio col-8 col-lg-5 gap-0 p-0 m-0">
+              <div id="incendio" class="instalacoes-especificas col-8 col-lg-5 d-flex flex-row gap-3 align-items-center">
                 <i class="bi bi-fire"></i>
-                <h5>Prevenção de incêncios</h5>
-                <a href="#" class="btn btn-secondary col-12 col-md-9 text-light d-flex align-items-center"><i class="bi bi-arrow-right-circle"></i> Saiba mais</a>
+                <div class="instalacoes-especificas_texto d-flex flex-column col-10">
+                  <h5>Prevenção de incêncios</h5>
+                  <a href="#" class="btn btn-secondary col-10 col-md-8 gap-2 text-light d-flex align-items-center"><i
+                      class="bi bi-arrow-right-circle"></i>Saiba mais</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="imagem col-12 col-md-5 d-block">
           <div class="conteudo h-100">
-            <div style="background-image: url(assets/images/servicos-secao-home.jpg);"></div>
+            <div
+              style="background-image: url(assets/images/servicos-secao-home.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+            </div>
           </div>
         </div>
       </div>
     </div>
     <img src="assets/images/servicos-secao-home.jpg" class="w-100 h-25 d-block d-md-none" alt="Imagens das instalações">
   </section>
+
+  <!---->
 
 </body>
 
