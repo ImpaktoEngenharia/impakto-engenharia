@@ -9,6 +9,7 @@
 //SECTIONS
 
 @use 'sections/navbar';
-@use 'sections/intro-content';
-@use 'sections/carousel';
-@use 'sections/services';
+@use 'sections/intro-home';
+@use 'sections/carousel-home';
+@use 'sections/services-home';
+@use 'sections/projetos-home';

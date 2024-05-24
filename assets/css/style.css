@@ -11963,11 +11963,7 @@ textarea.form-control-lg {
   font-size: 1rem;
 }
 .nossos-servicos .container .linha .texto .conteudo .instalacoes .instalacoes-especificas .instalacoes-especificas_texto a {
-  font-size: 0.8rem;
-}
-.nossos-servicos .container .linha .texto .conteudo .instalacoes .instalacoes-especificas .instalacoes-especificas_texto a i {
   font-size: 1rem;
-  width: 30px;
 }
 
 @media (min-width: 768px) {
@@ -11983,6 +11979,21 @@ textarea.form-control-lg {
   .imagem .conteudo div {
     height: 100%;
   }
+}
+@media (min-width: 1200px) {
+  .nossos-servicos .container .linha .texto .conteudo .instalacoes .instalacoes-especificas .instalacoes-especificas_texto h5 {
+    font-weight: 1.3rem;
+  }
+}
+.nossos-projetos .container .projetos-texto h5 {
+  font-size: 1rem;
+  color: #646665;
+}
+.nossos-projetos .container .projetos-texto h2 {
+  color: #0088D8;
+}
+.nossos-projetos .container .projetos-texto p {
+  font-size: 0.9rem;
 }
 
 /*# sourceMappingURL=style.css.map */
