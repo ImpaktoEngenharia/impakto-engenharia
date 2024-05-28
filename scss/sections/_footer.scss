@@ -1,0 +1,20 @@
+@use '../custom' as *;
+
+footer {
+    height: 110px;
+    font-size: 1rem;
+    a {
+        text-decoration:underline;
+        color: $white;
+    }
+    a:hover {
+        font-weight: 600;
+    }
+}
+
+@media(min-width:768px) {
+    footer {
+        height: 90px;
+    }
+}
+

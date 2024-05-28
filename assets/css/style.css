@@ -11906,13 +11906,13 @@ textarea.form-control-lg {
 }
 
 .carousel-caption div h1 {
-  font-weight: 700;
+  font-weight: 200;
   font-size: 2.4rem;
   color: #f2f2f2;
 }
 .carousel-caption div h1 strong {
   color: #0088D8;
-  font-weight: 200;
+  font-weight: 700;
 }
 .carousel-caption div h4 {
   color: #f2f2f2;
@@ -11928,7 +11928,7 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .carousel-caption div h1 {
-    font-weight: 900;
+    font-weight: 200;
     font-size: 4rem;
   }
 }
@@ -12008,6 +12008,24 @@ textarea.form-control-lg {
 }
 .nossos-projetos .container .owl-carousel .item .card .card-body:hover .card-text {
   opacity: 100;
+}
+
+footer {
+  height: 110px;
+  font-size: 1rem;
+}
+footer a {
+  text-decoration: underline;
+  color: #f2f2f2;
+}
+footer a:hover {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 90px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
