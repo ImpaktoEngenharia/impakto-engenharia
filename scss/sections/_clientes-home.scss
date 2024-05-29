@@ -1,11 +1,11 @@
 @use '../custom' as *;
 
-.nossos-projetos {
+.nossos-clientes {
     p {
         color: $cinzao;
     }
     .container {
-        .projetos-texto {
+        .clientes-texto {
             h5 {
                 font-size: 1rem;
                 color: $cinzao;
@@ -18,12 +18,6 @@
             p {
                 font-size: 0.8rem;
                 color: $cinzao;
-            }
-            .paragrafo-projetos {
-                p {
-                    font-size: 1rem;
-                }
-
             }
         }
         .owl-carousel {
@@ -42,6 +36,15 @@
                         }
                     }
                 }
+            }
+        }
+        .especial {
+            .btn {
+                i {
+                    font-size: 1.8rem;
+                }
+                height: 70px;
+                width: 120px;
             }
         }
     }

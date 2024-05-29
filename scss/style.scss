@@ -8,9 +8,17 @@
 
 //SECTIONS
 
+//CONTINUOUS
 @use 'sections/navbar';
+@use 'sections/banner';
+@use 'sections/footer';
+
+//HOME
+
 @use 'sections/intro-home';
 @use 'sections/carousel-home';
 @use 'sections/services-home';
 @use 'sections/projetos-home';
-@use 'sections/footer';
+@use 'sections/clientes-home';
+
+//ABOUT

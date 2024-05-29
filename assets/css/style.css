@@ -11873,6 +11873,46 @@ textarea.form-control-lg {
     font-size: 1rem;
   }
 }
+.banner {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+.banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.banner .overlay .banner-content span {
+  height: 80px;
+}
+.banner .overlay .banner-content .banner-text {
+  opacity: 100%;
+  color: #f2f2f2;
+}
+
+footer {
+  height: 110px;
+  font-size: 1rem;
+}
+footer a {
+  text-decoration: underline;
+  color: #f2f2f2;
+}
+footer a:hover {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 90px;
+  }
+}
 .intro-content .intro-imagem img {
   width: 100%;
 }
@@ -11985,6 +12025,9 @@ textarea.form-control-lg {
     font-weight: 1.3rem;
   }
 }
+.nossos-projetos p {
+  color: #646665;
+}
 .nossos-projetos .container .projetos-texto h5 {
   font-size: 1rem;
   color: #646665;
@@ -12010,22 +12053,36 @@ textarea.form-control-lg {
   opacity: 100;
 }
 
-footer {
-  height: 110px;
+.nossos-clientes p {
+  color: #646665;
+}
+.nossos-clientes .container .clientes-texto h5 {
   font-size: 1rem;
+  color: #646665;
 }
-footer a {
-  text-decoration: underline;
-  color: #f2f2f2;
+.nossos-clientes .container .clientes-texto h2 {
+  color: #0088D8;
 }
-footer a:hover {
-  font-weight: 600;
+.nossos-clientes .container .clientes-texto p {
+  font-size: 0.8rem;
+  color: #646665;
 }
-
-@media (min-width: 768px) {
-  footer {
-    height: 90px;
-  }
+.nossos-clientes .container .owl-carousel .item .card .card-body {
+  height: 300px;
+}
+.nossos-clientes .container .owl-carousel .item .card .card-body .card-text {
+  opacity: 0;
+  transition: 500ms;
+}
+.nossos-clientes .container .owl-carousel .item .card .card-body:hover .card-text {
+  opacity: 100;
+}
+.nossos-clientes .container .especial .btn {
+  height: 70px;
+  width: 120px;
+}
+.nossos-clientes .container .especial .btn i {
+  font-size: 1.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
