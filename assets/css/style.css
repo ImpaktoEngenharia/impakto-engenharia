@@ -12085,4 +12085,25 @@ footer a:hover {
   font-size: 1.8rem;
 }
 
+.mvv {
+  background: #C8CFC8;
+}
+.mvv .container {
+  padding: 50px;
+}
+.mvv .container .missao .icone, .mvv .container .visao .icone, .mvv .container .valores .icone {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: #0088D8;
+  width: 80px;
+  height: 80px;
+}
+.mvv .container .missao .paragrafo, .mvv .container .visao .paragrafo, .mvv .container .valores .paragrafo {
+  color: #646665;
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=style.css.map */

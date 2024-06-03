@@ -1,0 +1,23 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.mvv {
+    background: $cinzinha;
+    .container{
+        padding: 50px;
+        .missao .icone, .visao .icone, .valores .icone {
+            @include fundo-branco;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: $secondary;
+            width: 80px;
+            height: 80px;
+        }
+        .missao .paragrafo, .visao .paragrafo, .valores .paragrafo {
+            color: $cinzao;
+            font-size: 0.9rem;
+        } 
+    }
+}

@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+@mixin fundo-branco {
+    background: $white;
+}

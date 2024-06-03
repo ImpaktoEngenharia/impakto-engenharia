@@ -8,17 +8,19 @@
 
 //SECTIONS
 
-//CONTINUOUS
-@use 'sections/navbar';
-@use 'sections/banner';
-@use 'sections/footer';
+    //USO CONTÍNUO
+    @use 'sections/navbar';
+    @use 'sections/banner';
+    @use 'sections/footer';
 
-//HOME
+    //INDEX
 
-@use 'sections/intro-home';
-@use 'sections/carousel-home';
-@use 'sections/services-home';
-@use 'sections/projetos-home';
-@use 'sections/clientes-home';
+    @use 'sections/intro-home';
+    @use 'sections/carousel-home';
+    @use 'sections/services-home';
+    @use 'sections/projetos-home';
+    @use 'sections/clientes-home';
 
-//ABOUT
+    //ABOUT
+
+    @use 'sections/mvv-about';
