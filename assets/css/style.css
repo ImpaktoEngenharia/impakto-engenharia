@@ -12106,4 +12106,24 @@ footer a:hover {
   font-size: 0.9rem;
 }
 
+.equipe .container .conheca .titulo h5 {
+  font-size: 1rem;
+  color: #646665;
+}
+.equipe .container .conheca .titulo h2 {
+  color: #0088D8;
+}
+.equipe .container .dep-de-eng, .equipe .container .eng-de-int, .equipe .container .int-e-man {
+  height: 424px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.equipe .container .dep-de-eng .titulo, .equipe .container .eng-de-int .titulo, .equipe .container .int-e-man .titulo {
+  color: #0088D8;
+  background: #f2f2f2;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
