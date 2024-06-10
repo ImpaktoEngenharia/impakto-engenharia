@@ -1,0 +1,42 @@
+@use '../custom' as *;
+
+.eletrica,
+.hidraulica,
+.incendio {
+    .container {
+        .conheca {
+            .titulo {
+                h5 {
+                    font-size: 1rem;
+                    color: $cinzao;
+                }
+
+                h2 {
+                    color: $secondary;
+                }
+            }
+        }
+
+        .instalacoes {
+            .instal .icone {
+                background: $cinzinha;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.8rem;
+                color: $secondary;
+                width: 80px;
+                height: 80px;
+            }
+
+            .instal .paragrafo {
+            
+                color: $cinzao;
+                font-size: 0.9rem;
+                h4 {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

@@ -12126,4 +12126,39 @@ footer a:hover {
   font-weight: 600;
 }
 
+.eletrica .container .conheca .titulo h5,
+.hidraulica .container .conheca .titulo h5,
+.incendio .container .conheca .titulo h5 {
+  font-size: 1rem;
+  color: #646665;
+}
+.eletrica .container .conheca .titulo h2,
+.hidraulica .container .conheca .titulo h2,
+.incendio .container .conheca .titulo h2 {
+  color: #0088D8;
+}
+.eletrica .container .instalacoes .instal .icone,
+.hidraulica .container .instalacoes .instal .icone,
+.incendio .container .instalacoes .instal .icone {
+  background: #C8CFC8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: #0088D8;
+  width: 80px;
+  height: 80px;
+}
+.eletrica .container .instalacoes .instal .paragrafo,
+.hidraulica .container .instalacoes .instal .paragrafo,
+.incendio .container .instalacoes .instal .paragrafo {
+  color: #646665;
+  font-size: 0.9rem;
+}
+.eletrica .container .instalacoes .instal .paragrafo h4,
+.hidraulica .container .instalacoes .instal .paragrafo h4,
+.incendio .container .instalacoes .instal .paragrafo h4 {
+  color: #00568C;
+}
+
 /*# sourceMappingURL=style.css.map */
