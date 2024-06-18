@@ -11855,23 +11855,19 @@ textarea.form-control-lg {
 }
 
 .menu a {
+  color: #0088D8 !important;
+  font-weight: 500 !important;
+}
+.menu a:hover {
   color: #00568C !important;
+  font-weight: 600 !important;
 }
 
 @media (min-width: 768px) {
   .info-nav {
     height: 35px;
-    background-color: #C8CFC8;
-    color: #0088D8;
-  }
-  .info-nav div div p {
-    height: 15%;
-    font-size: 1rem;
-  }
-}
-@media (min-width: 1200px) {
-  .info-nav {
-    height: 35px;
+    background-color: #00568C;
+    color: #f2f2f2;
   }
   .info-nav div div p {
     height: 15%;
@@ -12104,13 +12100,14 @@ footer a:hover {
 }
 
 .mvv {
-  background: #C8CFC8;
+  background: #f2f2f2;
+  margin: 0;
 }
 .mvv .container {
   padding: 50px;
 }
 .mvv .container .missao .icone, .mvv .container .visao .icone, .mvv .container .valores .icone {
-  background: #f2f2f2;
+  background-color: #C8CFC8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12122,26 +12119,6 @@ footer a:hover {
 .mvv .container .missao .paragrafo, .mvv .container .visao .paragrafo, .mvv .container .valores .paragrafo {
   color: #646665;
   font-size: 0.9rem;
-}
-
-.equipe .container .conheca .titulo h5 {
-  font-size: 1rem;
-  color: #646665;
-}
-.equipe .container .conheca .titulo h2 {
-  color: #0088D8;
-}
-.equipe .container .dep-de-eng, .equipe .container .eng-de-int, .equipe .container .int-e-man {
-  height: 424px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.equipe .container .dep-de-eng .titulo, .equipe .container .eng-de-int .titulo, .equipe .container .int-e-man .titulo {
-  color: #0088D8;
-  background: #f2f2f2;
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 
 .eletrica .container .conheca .titulo h5,
@@ -12170,6 +12147,7 @@ footer a:hover {
 .eletrica .container .instalacoes .instal .paragrafo,
 .hidraulica .container .instalacoes .instal .paragrafo,
 .incendio .container .instalacoes .instal .paragrafo {
+  gap: 15px;
   color: #646665;
   font-size: 0.9rem;
 }

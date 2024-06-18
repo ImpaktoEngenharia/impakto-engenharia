@@ -2,11 +2,12 @@
 @use '../components/mixins' as *;
 
 .mvv {
-    background: $cinzinha;
+    background: $white;
+    margin: 0;
     .container{
         padding: 50px;
         .missao .icone, .visao .icone, .valores .icone {
-            @include fundo-branco;
+            background-color: $cinzinha;
             display: flex;
             align-items: center;
             justify-content: center;

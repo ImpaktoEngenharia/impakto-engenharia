@@ -7,29 +7,20 @@
 
 .menu {
     a {
+        color: $secondary !important;
+        font-weight: 500 !important;
+    }
+    a:hover {
         color: $primary !important;
+        font-weight: 600 !important;
     }
 }
 
 @media(min-width: 768px) {
     .info-nav {
         height:35px;
-        background-color: $cinzinha;
-        color: $secondary;
-        div {
-            div {
-                p {
-                    height: 15%;
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}    
-
-@media(min-width: 1200px) {
-    .info-nav {
-        height:35px;
+        background-color: $primary;
+        color: $white;
         div {
             div {
                 p {
