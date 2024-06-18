@@ -11844,6 +11844,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*<section class="grid w-100">
+<div class="item col-6 col-md-4" type="button" data-bs-toggle="modal"
+        data-bs-target="#parceiro-1" style="background-image: url(assets/images/mjs.png);">
+    </div>
+</section>*/
 .horario-e-email {
   color: #0088D8 !important;
   font-weight: 700;
@@ -11913,6 +11918,19 @@ footer a:hover {
     height: 90px;
   }
 }
+.grid {
+  margin: 0 auto;
+}
+.grid .container {
+  flex-flow: column wrap;
+}
+.grid .container .item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+}
+
 .intro-content .intro-imagem img {
   width: 100%;
 }

@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+.grid {
+    margin: 0 auto;
+
+    .container {
+        flex-flow: column wrap;
+
+        .item {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 300px;
+        }
+    }
+
+}
