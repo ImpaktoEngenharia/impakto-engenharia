@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.container + .clientes{
+    .owl-carousel {
+        .item {
+            .card {
+                background-color: $cinzinha;
+                .card-body {
+                    background-size: 90%;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}

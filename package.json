@@ -1,7 +1,7 @@
 {
   "name": "impakto-engenharia",
   "version": "1.0.0",
-  "description": "Projeto de site da Impakta engenharia, empresa de engenharia que atua em projetos comerciais, industriais.",
+  "description": "Projeto de site da Impakto engenharia, empresa de engenharia que atua em projetos comerciais, industriais.",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss:assets/css"

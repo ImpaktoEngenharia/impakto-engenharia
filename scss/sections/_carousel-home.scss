@@ -1,39 +1,69 @@
 @use '../custom' as *;
 
-.carousel-caption {
-    div {
-        h1 {
-            font-weight: 200;
-            font-size: 2.4rem;
-            color: $white;
-            strong {
-                color: $secondary;
-                font-weight: 700;
+.carousel {
+    .carousel-inner {
+        .carousel-item {
+                img{
+                    height: 560px;
+                    width: 100vw;
+                    object-fit: cover;
+                }
             }
         }
-        h4 {
-            color: $white;
-            strong {
-                color: $cinzinha;
-                font-weight: 400;
-            }
-            
-        }
-    }
 
-    button {
-        font-weight: 600;
-        font-size: 0.95rem;
+        .carousel-caption {
+            div {
+                h1 {
+                    font-weight: 200;
+                    font-size: 2.4rem;
+                    color: $white;
+
+                    strong {
+                        color: $secondary;
+                        font-weight: 700;
+                    }
+                }
+
+                h4 {
+                    color: $white;
+
+                    strong {
+                        color: $cinzinha;
+                        font-weight: 400;
+                    }
+
+                }
+            }
+
+            button {
+                font-weight: 600;
+                font-size: 0.95rem;
+            }
+        }
     }
-}
 
 @media(min-width: 768px) {
-    .carousel-caption {
-        div {
-            h1 {
-                font-weight: 200;
-                font-size: 4rem;
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                .carousel-image {
+                    height: 560px;
+                }
+            }
+
+            .carousel-caption {
+                div {
+                    h1 {
+                        font-weight: 200;
+                        font-size: 2.4rem;
+
+                    }
+                }
+
             }
         }
     }
 }
+
+//font-weight: 200;
+//font-size: 4rem;

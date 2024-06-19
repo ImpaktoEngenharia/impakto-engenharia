@@ -11919,11 +11919,13 @@ footer a:hover {
 }
 .grid .container {
   flex-flow: column wrap;
+  margin-top: 35px;
 }
 .grid .container .item {
+  background: #C8CFC8;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 63%;
   height: 300px;
 }
 
@@ -11959,31 +11961,39 @@ footer a:hover {
   font-weight: 700;
 }
 
-.carousel-caption div h1 {
+.carousel .carousel-inner .carousel-item img {
+  height: 560px;
+  width: 100vw;
+  object-fit: cover;
+}
+.carousel .carousel-caption div h1 {
   font-weight: 200;
   font-size: 2.4rem;
   color: #f2f2f2;
 }
-.carousel-caption div h1 strong {
+.carousel .carousel-caption div h1 strong {
   color: #0088D8;
   font-weight: 700;
 }
-.carousel-caption div h4 {
+.carousel .carousel-caption div h4 {
   color: #f2f2f2;
 }
-.carousel-caption div h4 strong {
+.carousel .carousel-caption div h4 strong {
   color: #C8CFC8;
   font-weight: 400;
 }
-.carousel-caption button {
+.carousel .carousel-caption button {
   font-weight: 600;
   font-size: 0.95rem;
 }
 
 @media (min-width: 768px) {
-  .carousel-caption div h1 {
+  .carousel .carousel-inner .carousel-item .carousel-image {
+    height: 560px;
+  }
+  .carousel .carousel-inner .carousel-caption div h1 {
     font-weight: 200;
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 }
 .nossos-servicos {
@@ -12097,6 +12107,15 @@ footer a:hover {
 }
 .nossos-clientes .container .especial .btn i {
   font-size: 1.8rem;
+}
+
+.container + .clientes .owl-carousel .item .card {
+  background-color: #C8CFC8;
+}
+.container + .clientes .owl-carousel .item .card .card-body {
+  background-size: 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .mvv {
