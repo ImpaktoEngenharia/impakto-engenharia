@@ -1,0 +1,39 @@
+@use '../custom' as *;
+
+.contato {
+    margin: 0 auto;
+    .conteudo-apresentacao, .conteudo-contatos {
+        .broche {
+            i {
+                font-size: 15rem;
+                color: $secondary;
+                margin: 0 auto;
+                padding: 0;
+            }
+        }
+    }
+    .conteudo-apresentacao {
+        .texto {
+            text-align: justify;
+            h4 {
+                font-size: 2rem;
+                color: $secondary;
+            }
+            h6 {
+                font-size: 1.1rem;
+                color: $cinzao;
+            }
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .conteudo-contatos {
+        .broche {
+            order: 2;
+        }
+        .botoes {
+            order: 1;
+        }
+    }
+}

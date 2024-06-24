@@ -5,6 +5,7 @@
 @use 'components/animations';
 @use 'components/mixins';
 @use 'components/typography';
+@use 'components/button';
 
 //SECTIONS
 
@@ -30,3 +31,7 @@
     //SERVICES
 
     @use 'sections/instalacoes-services';
+
+    //CONTATO
+
+    @use 'sections/emailetelefone-ctt';

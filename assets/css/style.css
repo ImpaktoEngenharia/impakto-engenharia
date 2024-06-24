@@ -11844,11 +11844,45 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*<section class="grid w-100">
-<div class="item col-6 col-md-4" type="button" data-bs-toggle="modal"
-        data-bs-target="#parceiro-1" style="background-image: url(assets/images/mjs.png);">
-    </div>
-</section>*/
+.btn i {
+  font-size: 2rem;
+  background-color: #0088D8;
+  padding: 13px 0px 13px 0px;
+  height: 100;
+}
+.btn div {
+  text-align: center;
+}
+.btn div h4 {
+  color: #C8CFC8;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.btn div h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .btn i {
+    font-size: 2rem;
+    background-color: #0088D8;
+    padding: 26px 0px 26px 0px;
+    height: 100;
+  }
+  .btn div {
+    text-align: justify;
+  }
+  .btn div h4 {
+    color: #C8CFC8;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+  .btn div h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+}
 .horario-e-email {
   color: #0088D8 !important;
   font-weight: 700;
@@ -11937,28 +11971,6 @@ footer a:hover {
 }
 .intro-content .intro-text h4 {
   color: #646665;
-}
-.intro-content .intro-text .btn {
-  height: 100px;
-  width: 300px;
-  gap: 20px;
-}
-.intro-content .intro-text .btn i {
-  font-size: 2rem;
-  background-color: #0088D8;
-  padding: 26px 0px 26px 0px;
-}
-.intro-content .intro-text .btn div {
-  text-align: justify;
-}
-.intro-content .intro-text .btn div h4 {
-  color: #C8CFC8;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-.intro-content .intro-text .btn div h2 {
-  font-size: 1.3rem;
-  font-weight: 700;
 }
 
 .carousel .carousel-inner .carousel-item img {
@@ -12174,6 +12186,36 @@ footer a:hover {
 .hidraulica .container .instalacoes .instal .paragrafo h4,
 .incendio .container .instalacoes .instal .paragrafo h4 {
   color: #00568C;
+}
+
+.contato {
+  margin: 0 auto;
+}
+.contato .conteudo-apresentacao .broche i, .contato .conteudo-contatos .broche i {
+  font-size: 15rem;
+  color: #0088D8;
+  margin: 0 auto;
+  padding: 0;
+}
+.contato .conteudo-apresentacao .texto {
+  text-align: justify;
+}
+.contato .conteudo-apresentacao .texto h4 {
+  font-size: 2rem;
+  color: #0088D8;
+}
+.contato .conteudo-apresentacao .texto h6 {
+  font-size: 1.1rem;
+  color: #646665;
+}
+
+@media (min-width: 768px) {
+  .conteudo-contatos .broche {
+    order: 2;
+  }
+  .conteudo-contatos .botoes {
+    order: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

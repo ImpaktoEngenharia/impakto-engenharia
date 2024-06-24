@@ -14,29 +14,6 @@
             color: $cinzao;
         }
 
-        .btn {
-            height: 100px;
-            width: 300px;
-            gap: 20px;
-            i {
-                font-size: 2rem;
-                background-color: $secondary;
-                padding: 26px 0px 26px 0px;
-            }
-            div {
-                text-align: justify;
-                h4 {
-                    color: $cinzinha;
-                    font-weight: 300;
-                    font-size: 1.1rem;
-                }
-
-                h2 {
-                    font-size: 1.3rem;
-                    font-weight: 700;
-                }
-            }
-        }
     }
 
 }
