@@ -2,7 +2,9 @@
 
 .contato {
     margin: 0 auto;
-    .conteudo-apresentacao, .conteudo-contatos {
+
+    .conteudo-apresentacao,
+    .conteudo-contatos {
         .broche {
             i {
                 font-size: 15rem;
@@ -12,28 +14,66 @@
             }
         }
     }
+
     .conteudo-apresentacao {
         .texto {
             text-align: justify;
+
             h4 {
                 font-size: 2rem;
                 color: $secondary;
             }
+
             h6 {
                 font-size: 1.1rem;
                 color: $cinzao;
             }
         }
     }
+
+    .conteudo-contatos {
+        .botoes {
+            .btn {
+                div {
+                    h4 {
+                        font-weight: 300;
+                        font-size: 0.6rem;
+                    }
+
+                    h2 {
+                        font-size: 0.6rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+    }
 }
 
 @media(min-width:768px) {
-    .conteudo-contatos {
+    .contato {
+        .conteudo-contatos {
         .broche {
             order: 2;
         }
         .botoes {
             order: 1;
+            .btn {
+                div {
+                    h4 {
+                        font-weight: 300;
+                        font-size: 0.8rem;
+                    }
+    
+                    h2 {
+                        font-size: 1rem;
+                        font-weight: 700;
+                    }
+                }
+            }
         }
     }
+    }
+    
 }

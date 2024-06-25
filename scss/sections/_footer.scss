@@ -1,15 +1,38 @@
 @use '../custom' as *;
 
 footer {
-    height: 110px;
     font-size: 1rem;
-    a {
-        text-decoration:underline;
-        color: $white;
+
+    .footer-content {
+        background: $cinzinha;
+        .footer-item {
+            text-align: justify !important;
+
+            h4 {
+                color: $secondary;
+                text-align: justify !important;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+
+            p {
+                color: $cinzao;
+                text-align: justify !important;
+                font-size: 0.9rem;
+                font-weight: 700;
+            }
+
+            a {
+                color: $primary;
+                text-decoration: none;
+            }
+
+            a:hover {
+                font-weight: 800;
+            }
+        }
     }
-    a:hover {
-        font-weight: 600;
-    }
+
 }
 
 @media(min-width:768px) {
@@ -17,4 +40,3 @@ footer {
         height: 90px;
     }
 }
-

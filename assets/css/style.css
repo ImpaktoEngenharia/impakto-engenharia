@@ -11876,10 +11876,10 @@ textarea.form-control-lg {
   .btn div h4 {
     color: #C8CFC8;
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .btn div h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
   }
 }
@@ -11932,15 +11932,32 @@ textarea.form-control-lg {
 }
 
 footer {
-  height: 110px;
   font-size: 1rem;
 }
-footer a {
-  text-decoration: underline;
-  color: #f2f2f2;
+footer .footer-content {
+  background: #C8CFC8;
 }
-footer a:hover {
-  font-weight: 600;
+footer .footer-content .footer-item {
+  text-align: justify !important;
+}
+footer .footer-content .footer-item h4 {
+  color: #0088D8;
+  text-align: justify !important;
+  font-size: 1rem;
+  font-weight: 700;
+}
+footer .footer-content .footer-item p {
+  color: #646665;
+  text-align: justify !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+footer .footer-content .footer-item a {
+  color: #00568C;
+  text-decoration: none;
+}
+footer .footer-content .footer-item a:hover {
+  font-weight: 800;
 }
 
 @media (min-width: 768px) {
@@ -11973,10 +11990,21 @@ footer a:hover {
   color: #646665;
 }
 
+.carousel .carousel-inner .carousel-item {
+  position: relative;
+}
 .carousel .carousel-inner .carousel-item img {
   height: 560px;
   width: 100vw;
   object-fit: cover;
+}
+.carousel .carousel-inner .carousel-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 560px;
 }
 .carousel .carousel-caption div h1 {
   font-weight: 200;
@@ -12191,7 +12219,8 @@ footer a:hover {
 .contato {
   margin: 0 auto;
 }
-.contato .conteudo-apresentacao .broche i, .contato .conteudo-contatos .broche i {
+.contato .conteudo-apresentacao .broche i,
+.contato .conteudo-contatos .broche i {
   font-size: 15rem;
   color: #0088D8;
   margin: 0 auto;
@@ -12208,13 +12237,29 @@ footer a:hover {
   font-size: 1.1rem;
   color: #646665;
 }
+.contato .conteudo-contatos .botoes .btn div h4 {
+  font-weight: 300;
+  font-size: 0.6rem;
+}
+.contato .conteudo-contatos .botoes .btn div h2 {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
 
 @media (min-width: 768px) {
-  .conteudo-contatos .broche {
+  .contato .conteudo-contatos .broche {
     order: 2;
   }
-  .conteudo-contatos .botoes {
+  .contato .conteudo-contatos .botoes {
     order: 1;
+  }
+  .contato .conteudo-contatos .botoes .btn div h4 {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  .contato .conteudo-contatos .botoes .btn div h2 {
+    font-size: 1rem;
+    font-weight: 700;
   }
 }
 
