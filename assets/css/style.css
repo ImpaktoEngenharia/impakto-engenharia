@@ -11965,19 +11965,48 @@ footer .footer-content .footer-item a:hover {
     height: 90px;
   }
 }
-.grid {
+.grid-clientes {
   margin: 0 auto;
 }
-.grid .container {
+.grid-clientes .container {
   flex-flow: column wrap;
   margin-top: 35px;
 }
-.grid .container .item {
+.grid-clientes .container .item {
   background: #C8CFC8;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 63%;
   height: 300px;
+}
+
+.grid-projetos {
+  margin: 0 auto;
+}
+.grid-projetos .container {
+  flex-flow: column wrap;
+  margin-top: 35px;
+}
+.grid-projetos .container .item {
+  background: #C8CFC8;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.grid-projetos .container .item p {
+  transition: opacity 0.5s;
+  opacity: 0;
+  margin: 0;
+  align-self: center;
+  background-color: #00568C;
+  color: #f2f2f2;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.grid-projetos .container .item:hover p {
+  opacity: 100;
 }
 
 .intro-content .intro-imagem img {
@@ -12154,6 +12183,15 @@ footer .footer-content .footer-item a:hover {
 }
 .container + .clientes .owl-carousel .item .card .card-body {
   background-size: 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container + .projetos .owl-carousel .item .card {
+  background-color: #C8CFC8;
+}
+.container + .projetos .owl-carousel .item .card .card-body {
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }

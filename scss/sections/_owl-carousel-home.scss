@@ -14,3 +14,18 @@
         }
     }
 }
+
+.container + .projetos{
+    .owl-carousel {
+        .item {
+            .card {
+                background-color: $cinzinha;
+                .card-body {
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
