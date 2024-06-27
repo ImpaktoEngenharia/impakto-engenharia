@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+.modal {
+    .modal-dialog {
+        .modal-content {
+            background: $cinzinha;
+        }
+    }
+}

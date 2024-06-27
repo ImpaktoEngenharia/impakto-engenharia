@@ -11883,6 +11883,10 @@ textarea.form-control-lg {
     font-weight: 700;
   }
 }
+.modal .modal-dialog .modal-content {
+  background: #C8CFC8;
+}
+
 .horario-e-email {
   color: #0088D8 !important;
   font-weight: 700;
@@ -11933,6 +11937,7 @@ textarea.form-control-lg {
 
 footer {
   font-size: 1rem;
+  margin-top: 25px;
 }
 footer .footer-content {
   background: #C8CFC8;
